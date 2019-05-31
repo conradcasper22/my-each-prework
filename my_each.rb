@@ -7,6 +7,7 @@ def my_each(array)
     yield array[i]
     # binding.pry
   end
+  array
 end
 
 
